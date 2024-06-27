@@ -8,6 +8,7 @@ WORKDIR /app
 COPY target/*.jar /app/spring-petclinic.jar
 #expose 8080
 EXPOSE  8080
+EXPOSE 8082
 
 # Command to run the application
-CMD ["java", "-cp", "/app/spring-petclinic..jar", "com.coveros.demo.helloworld.HelloWorld"]
+CMD ["java", "-cp", "/app/spring-petclinic..jar"]
