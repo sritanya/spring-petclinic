@@ -11,4 +11,4 @@ EXPOSE  8080
 EXPOSE 8082
 
 # Command to run the application
-CMD ["java", "-cp", "/app/spring-petclinic..jar"]
+CMD ["java", "-jar", "/app/spring-petclinic.jar"]
