@@ -1,5 +1,5 @@
 # Use the AdoptOpenJDK base image with OpenJDK 8
-FROM adoptopenjdk/openjdk8
+FROM openjdk:22-jdk-nanoserver
 
 # Set the working directory inside the container
 WORKDIR /app
